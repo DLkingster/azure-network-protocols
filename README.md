@@ -60,6 +60,11 @@ When done, close the RDP connection to the VM.
 <br />
 
 <p>
+Wireshark packet capture, open Powershell command line, observe ping request, observe website traffic.
+</p>
+<br />
+
+<p>
 <img src="https://github.com/user-attachments/assets/a7c1a271-8821-4459-bdf2-7caf1d10b03e"/>
 </p>
 <p>
