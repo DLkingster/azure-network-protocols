@@ -45,12 +45,12 @@ Enter virtual machines in the search. Under Services, select Virtual machines. I
 <img src="https://github.com/user-attachments/assets/ca3068d9-aab3-4040-88ed-128120ebef27"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+On the overview page for your virtual machine, select the Connect > RDP. In the Connect with RDP tab, keep the default options to connect by IP address, over port 3389, and click Download RDP file. Open the downloaded RDP file and click Connect when prompted. In the Windows Security window, select More choices and then Use a different account. Type the username as localhost\username, enter the password you created for the virtual machine, and then click OK. You may receive a certificate warning during the sign-in process. Click Yes or Continue to create the connection. 
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/f9ead750-eeb5-42b3-9c03-f73ce591581a"/>
 </p>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
