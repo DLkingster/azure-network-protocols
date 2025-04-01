@@ -34,7 +34,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <h2>Actions and Observations</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/92dabbf1-2399-43ad-bba7-b8420165897a"/>
 </p>
 <p>
 Enter virtual machines in the search. Under Services, select Virtual machines. In the Virtual machines page, select Create and then Azure virtual machine. The Create a virtual machine page opens.Under Instance details, enter myVM for the Virtual machine name and choose Windows Server 2022 Datacenter: Azure Edition - x64 Gen 2 for the Image. Leave the other defaults.Under Administrator account, provide a username, such as azureuser and a password. Under Inbound port rules, choose Allow selected ports and then select RDP (3389) and HTTP (80) from the drop-down. Leave the remaining defaults and then select the Review + create button at the bottom of the page. After validation runs, select the Create button at the bottom of the page.
