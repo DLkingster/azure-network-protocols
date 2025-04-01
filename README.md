@@ -25,10 +25,11 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>High-Level Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Create Windows 10 Virtual Machine (VM).
+- Create Virtual Network (VNET) and Subnet.
+- Use Remote Desktop to connect to your Windows 10 Virtual Machine
+- Configuring a Firewall [Network Security Group]
+- Wireshark packet capture, open Powershell command line, observe ping request, observe website traffic.
 
 <h2>Actions and Observations</h2>
 
@@ -36,12 +37,12 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Enter virtual machines in the search. Under Services, select Virtual machines. In the Virtual machines page, select Create and then Azure virtual machine. The Create a virtual machine page opens.Under Instance details, enter myVM for the Virtual machine name and choose Windows Server 2022 Datacenter: Azure Edition - x64 Gen 2 for the Image. Leave the other defaults.Under Administrator account, provide a username, such as azureuser and a password. Under Inbound port rules, choose Allow selected ports and then select RDP (3389) and HTTP (80) from the drop-down. Leave the remaining defaults and then select the Review + create button at the bottom of the page. After validation runs, select the Create button at the bottom of the page.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/ca3068d9-aab3-4040-88ed-128120ebef27"/>
 </p>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
