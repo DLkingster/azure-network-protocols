@@ -53,6 +53,13 @@ On the overview page for your virtual machine, select the Connect > RDP. In the 
 <img src="https://github.com/user-attachments/assets/f9ead750-eeb5-42b3-9c03-f73ce591581a"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+To see your VM in action, install the IIS web server. Open a PowerShell prompt on the VM and run the following command:
+Install-WindowsFeature -name Web-Server -IncludeManagementTools
+When done, close the RDP connection to the VM.
 </p>
 <br />
+
+<p>
+<img src="https://github.com/user-attachments/assets/a7c1a271-8821-4459-bdf2-7caf1d10b03e"/>
+</p>
+<p>
